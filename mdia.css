@@ -1,0 +1,320 @@
+@media screen and (max-width: 800px) {
+
+    /* nav-bar styling start */
+    .search-icon-container {
+        display: none;
+    }
+
+    .search-icon-container i {
+        display: none;
+    }
+
+    .search-container input {
+        width: 40vw;
+        height: 4vh;
+        padding-left: 1px;
+        font-size: 0.9rem;
+    }
+
+    .flip-logo-container img {
+        height: 4rem;
+        width: 6rem;
+    }
+
+    .profile-icon-container {
+        height: 2rem;
+        width: 2rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .profile-icon-container i {
+        font-size: 1rem;
+    }
+
+    .cart-icon-container i {
+        display: none;
+    }
+
+    .hambarger-icon-container i {
+        font-size: 1.5rem;
+    }
+
+    /* main-container-for shoping-section start */
+    .item-img {
+        height: 7vh;
+        width: 5vw;
+        overflow: hidden;
+        padding-top: 0.3rem;
+    }
+
+    .item-name {
+        font-size: 0.4rem;
+        padding-top: 0.3rem;
+    }
+
+    .item-container {
+        height: 13vh;
+        /* border: 2px solid black; */
+        padding: 0.2rem 0.2rem;
+    }
+
+    .quick-item-coinernta {
+        height: 13vh;
+        /* border: 2px solid black; */
+    }
+
+    .quick-flex-container {
+        height: 13vh;
+    }
+
+    /* hero-section start */
+    .shoping-section-container {
+        height: 30vh;
+        overflow: hidden;
+    }
+
+    /* main shoping-cart-section start */
+    .cart-heading {
+        font-size: 0.8rem;
+    }
+
+    .shoping-flex-container {
+        overflow: hidden;
+    }
+
+    .cart-img {
+        height: 13vh;
+        width: 13vw;
+        /* border: 2px solid black; */
+        overflow: hidden;
+    }
+
+    .cart-section {
+        height: 23vh;
+        width: 15vw;
+        /* border: 2px solid black; */
+        /* overflow: hidden; */
+        gap: 0.8rem;
+    }
+
+    .cart-price {
+        font-size: 1rem;
+    }
+
+    .cart-item-ditiles-name {
+        font-size: 0.8rem;
+    }
+
+    .btn {
+        height: 1.5rem;
+        width: 1.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .btn i {
+        font-size: 0.8rem;
+    }
+
+    /* <!-- flipkart-decscription-section start --> */
+
+    .decscription-section-container {
+        display: none;
+    }
+
+    .decscription-section {
+        display: none;
+    }
+
+    /* <!-- footer-section start --> */
+    .footer-box h3 {
+        color: #878787;
+        font-size: 0.9rem;
+        padding: 0.5rem 0;
+    }
+
+    .footer-box ul li a {
+        font-size: 0.6rem;
+    }
+
+    .footer-container-one {
+        height: 18vh;
+    }
+
+    .footer-container-two {
+        height: 4vh;
+    }
+
+    .footer-item {
+        height: 4vh;
+    }
+
+    .footer-item li span a {
+        font-size: 0.5rem;
+    }
+
+    .footer-item li {
+        font-size: 0.5rem;
+    }
+
+    .footer-container-two ul li i {
+        font-size: 0.5rem;
+    }
+
+}
+
+@media screen and (max-width: 1300px) {
+    .search-icon-container {
+        display: none;
+    }
+
+    .search-icon-container i {
+        display: none;
+    }
+
+
+    .cart-section {
+        width: 35vw;
+        /* overflow: hidden; */
+    }
+
+    
+    .decscription-section-container {
+        height: 270vh;
+    }
+    .decscription-section {
+        height: 259vh;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    /* nav-bar styling start */
+    .flip-logo-container img {
+        height: 2rem;
+        height: 3rem;
+    }
+
+    .profile-icon-container i {
+        display: none;
+    }
+
+    .profile-icon-container {
+        display: none;
+    }
+
+    /* main-container-for shoping-section start */
+    .quick-flex-container {
+        height: 14vh;
+    }
+
+    .quick-item-coinernta {
+        height: 14vh;
+        overflow: hidden;
+    }
+
+    .item-container {
+        height: 14vh;
+        width: 22vw;
+    }
+
+    .item-img {
+        height: 8vh;
+        width: 12vw;
+        overflow: hidden;
+    }
+
+    .item-name {
+        padding-top: 1rem;
+        font-size: 0.8rem;
+    }
+
+    .hero-section-container {
+        height: 20vh;
+        overflow: hidden;
+    }
+
+    /* main shoping-cart-section start */
+    .cart-heading {
+        font-size: 1rem;
+    }
+
+    .cart-img {
+        height: 15vh;
+        width: 25vw;
+        /* border: 2px solid black; */
+        overflow: hidden;
+    }
+
+    .cart-section {
+        height: 25vh;
+        width: 28vw;
+        /* border: 2px solid black; */
+        /* overflow: hidden; */
+        gap: 0.5rem;
+    }
+
+    .shoping-section-container {
+        height: 34vh;
+    }
+
+    /* <!-- flipkart-decscription-section start --> */
+    .decscription-section-container {
+        display: none;
+    }
+
+    .decscription-section {
+        display: none;
+    }
+
+    /* <!-- footer-section start --> */
+    .footer-item {
+        flex-direction: column;
+        height: 14vh;
+    }
+
+    .footer-container-two {
+        height: 14vh;
+    }
+
+    .footer-container-one {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 650px){
+    .quick-item-coinernta {
+        overflow: hidden;
+    }
+}
+
+/* @media screen and (max-width: 1800px){ */
+
+    .decscription-section {
+        height: 20vh;
+    }
+    /* .quick-flex-container {
+        height: 20vh;
+    } */
+
+
+
+    .shoping-section-container {
+        height: 48vh;
+        overflow: hidden;
+    }
+
+    .cart-section {
+        height: 38vh;
+    }
+
+
+    .decscription-section-container {
+        height: 120vh;
+    }
+    .decscription-section {
+        height: 89vh;
+    }
